@@ -17,7 +17,7 @@ type Faturamento struct {
 
 func main() {
     // Ruta del archivo
-    filePath := "/home/martin/Descargas/dados.json" // o "dados.xml"
+    filePath := "./dados.json" // o "dados.xml"
 
     // Leer el archivo
     data, err := ioutil.ReadFile(filePath)
